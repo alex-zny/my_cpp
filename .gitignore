@@ -63,6 +63,20 @@ vcpkg_installed/
 
 # debug information files
 *.dwo
+*.dSYM/
+*.dSYM/**
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+
+# Executables (no extension on Unix/macOS)
+# Place compiled binaries in bin/ directory
+bin/
 
 # test output & cache
 Testing/
